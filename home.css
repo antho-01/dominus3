@@ -1,0 +1,163 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+}
+
+a {
+      text-decoration: none;
+      border: none;
+}
+
+.container1 {
+      display: flex;
+      justify-content: space-between;
+      padding: .5rem 6rem;
+      
+}
+
+.imageNText{
+      display: flex;
+      align-items: center;
+}
+
+.ImgContainer1 {
+      position: relative;
+      width: 10rem;
+      height: 2.5rem;
+}
+
+.img1 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: pointer;
+}
+
+.text1 {
+      font-weight: bold;
+      font-size: 2rem;
+      padding-top: .35rem;
+}
+
+.ImgContainer2 {
+      position: relative;
+      width: 2rem;
+      height: 2rem;
+}
+
+.img2 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 100%;
+      cursor: pointer;
+}
+
+.clientNameAndImage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+}
+
+.text2 {
+      font-size: .8rem;
+}
+
+/* container 2 */
+
+.container2 {
+      background-color: rgb(47, 47, 255);
+      padding: .5rem 6.5rem;
+      
+      
+}
+
+.linkage {
+      color: white;
+      font-size: .8rem;
+      display: inline-block;
+}
+
+.linkContainer {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+}
+
+.container2 .linkage1 {
+      border-bottom: .2px solid white;
+}
+
+
+/* main */
+
+.hero {
+      background-image: url("/kolaimg/hero5.webp");
+      width: 100%;
+      height: 60vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+
+}
+
+.hero h1 {
+      font-family: fantasy;
+      padding: 5rem 6rem;
+      width:50%;
+      line-height: 3rem;
+      color: rgb(35, 35, 35);
+}
+
+h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: rgb(35, 35, 35);
+      margin: 3rem 6rem;
+}
+
+table, th, td {
+      border-collapse: collapse;
+      margin: 1rem;
+      
+    }
+
+    th, td {
+      padding: .5rem;
+      text-align: center;
+      border: 1px solid gray;;
+    }
+
+    .tbCon {
+      width: 100%;;
+    }
+.tbCon table {
+      margin: 0 auto;
+}
+
+.sCon {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 5rem;
+}
+
+.section1 {
+      width: 35%;
+      height: 30vh;
+      background-image: url("/kolaimg/hero1.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 1rem;
+}
+
+.sCon p {
+      width: 40%;
+}

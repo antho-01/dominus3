@@ -1,0 +1,61 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: sans-serif;
+}
+
+main {
+      padding-top: 5rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 8rem;
+
+}
+
+h1 {
+      text-align: center;
+      margin-left: 7rem;
+}
+
+table {
+      width: 80%;
+      margin: 0 auto;
+      border: .1px solid #ccccccc6;
+      border-radius: 1rem;
+      
+}
+table, th, td {
+      border-collapse: collapse;
+      margin: 1rem;
+      
+    }
+
+    th, td {
+      padding: .5rem;
+      text-align: center;
+    }
+
+    .green {
+      padding: .5rem;
+      color: green;
+      
+      margin: .3rem 0;
+    }
+
+    .red {
+      padding: .5rem;
+      color: red;
+    } 
+
+
+    .footer {
+      text-align: center;
+    }
+
+    .one, .two, .three, .four {
+      background-color: #ccc;
+    }

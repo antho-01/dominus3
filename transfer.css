@@ -1,0 +1,44 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+}
+
+h1 {
+      text-align: center;
+      margin: 2rem;
+}
+
+
+table {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+}
+table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: .5rem;
+    }
+
+
+    .btnContainer {
+      width: 90%;
+      text-align: right;
+      margin-top: 2rem;
+
+    }
+
+    .btnContainer button {
+      display: inline-block;
+      background-color: blue;;
+      padding: .5rem 2rem;;
+      color: white;
+      
+      border-radius: .5rem 1rem;;
+      border: none;
+    }
